@@ -1,32 +1,59 @@
 
-  
-    
-    #display-score{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        background-color: aliceblue;
-        width:400px;
-        padding: 30px;
-        display: none;
-    }
-    #result-score{
-        font-size:2rem;
-        margin-left:2rem;
-    }
-    #play-again{
-        margin-top:37px;
-        text-align: center;
-        margin-left:5rem;
-        background-color: blue;
-        color: #fff;
-        padding: 16px 30px;
-        outline: none;
-        border: 1px solid #fff;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Refractior of coder */
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ 
+ #quiz-container{
+    width:500px;
+    display: none;
+    background-color:#457b9d;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+ 
+ 
+ 
+ 
+  #start-quiz{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  #start{
+    padding: 20px 50px;
+        background-color: rgb(15, 65, 216);
+        outline:none;
+        border:1px solid #fff;
         cursor: pointer;
-
-    }
+        color: #fff;
+  }
+  #quiz-container{
+    width:500px;
+  
+    background-color:#457b9d;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+   
+  
+   
     .nextbtn{
         float:right;
         margin-top: 8px;
@@ -41,11 +68,25 @@
         cursor: pointer;
         color: #fff;
     }
-    *{
-        margin:0;
-        padding: 0;
-        box-sizing: border-box;
+
+
+    .quiz-main-heading h1{
+        text-align: center;
+        margin-top:1rem;
+        color: red;
     }
+.quiz-heading{
+    background-color:#0b1f2c;
+    margin-top:2rem;
+
+
+}
+.quiz-heading h1{
+    text-align: center;
+    padding: 10px;
+    color: rgb(220, 228, 226);
+}
+    
     .answerCheck{
         cursor: pointer;
     }
@@ -74,29 +115,33 @@
         
 
     }
-    .quiz-main-heading h1{
-        text-align: center;
-        margin-top:1rem;
-        color: red;
-    }
-.quiz-heading{
-    background-color:#0b1f2c;
-    margin-top:2rem;
-
-
-}
-.quiz-heading h1{
-    text-align: center;
-    padding: 10px;
-    color: rgb(220, 228, 226);
-}
-    #quiz-container{
-        width:500px;
-      
-        background-color:#457b9d;
-       position: absolute;
-       top:50%;
-       left: 50%;
-       transform: translate(-50%,-50%);
-    }
   
+#result-score{
+    font-size:2rem;
+    margin-left:2rem;
+}
+  
+    #display-score{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        background-color: aliceblue;
+        width:400px;
+        padding: 30px;
+        display: none;
+    }
+
+
+    #play-again{
+        margin-top:37px;
+        text-align: center;
+        margin-left:5rem;
+        background-color: blue;
+        color: #fff;
+        padding: 16px 30px;
+        outline: none;
+        border: 1px solid #fff;
+        cursor: pointer;
+
+    }
