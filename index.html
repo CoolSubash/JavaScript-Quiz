@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Game</title>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
@@ -75,125 +76,7 @@
     <h1 id="result-score">Your Score is 5</h1>
     <button id="play-again">Play Again</button>
   </section>
-<style>
-  #quiz-container{
-    display: none;
-  }
-  #start-quiz{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-  }
-  #start{
-    padding: 20px 50px;
-        background-color: rgb(15, 65, 216);
-        outline:none;
-        border:1px solid #fff;
-        cursor: pointer;
-        color: #fff;
-  }
-    
-    #display-score{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        background-color: aliceblue;
-        width:400px;
-        padding: 30px;
-        display: none;
-    }
-    #result-score{
-        font-size:2rem;
-        margin-left:2rem;
-    }
-    #play-again{
-        margin-top:37px;
-        text-align: center;
-        margin-left:5rem;
-        background-color: blue;
-        color: #fff;
-        padding: 16px 30px;
-        outline: none;
-        border: 1px solid #fff;
-        cursor: pointer;
 
-    }
-    .nextbtn{
-        float:right;
-        margin-top: 8px;
-      
-    }
-
-    #next-btn{
-        padding: 10px;
-        background-color: darkcyan;
-        outline:none;
-        border:1px solid #fff;
-        cursor: pointer;
-        color: #fff;
-    }
-    *{
-        margin:0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    .answerCheck{
-        cursor: pointer;
-    }
-    .quiz-footer{
-        background-color: cadetblue;
-        padding: 10px 20px;
-        display: flex;
-        justify-content: space-between;
-        margin-top:2rem;
-    }
-
-    .answer-option{
-        margin-top:2rem;
-    }
-    .option{
-        margin:1rem;
-    }
-    .option span{
-        display: inline-block;
-        font-size:20px;
-    }
-    .quiz-body h2{
-        background-color: rgb(4, 34, 24);
-        padding: 10px;
-        color: #fff;
-        
-
-    }
-    .quiz-main-heading h1{
-        text-align: center;
-        margin-top:1rem;
-        color: red;
-    }
-.quiz-heading{
-    background-color:#0b1f2c;
-    margin-top:2rem;
-
-
-}
-.quiz-heading h1{
-    text-align: center;
-    padding: 10px;
-    color: rgb(220, 228, 226);
-}
-    #quiz-container{
-        width:500px;
-      
-        background-color:#457b9d;
-       position: absolute;
-       top:50%;
-       left: 50%;
-       transform: translate(-50%,-50%);
-    }
-  
-</style>
    <script src="script.js"></script>
 </body>
 </html>
